@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "unstablesmp",
+  "version": "${version}",
+  "name": "Unstable SMP",
+  "description": "Far Lands style corrupted terrain 12.5 million blocks from spawn.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.unstablesmp.UnstableSmp"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
